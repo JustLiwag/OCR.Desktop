@@ -44,6 +44,8 @@ namespace OCR.Desktop
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btnUpload
@@ -106,9 +108,9 @@ namespace OCR.Desktop
             // 
             // flpUploadPreview
             // 
-            this.flpUploadPreview.Location = new System.Drawing.Point(59, 78);
+            this.flpUploadPreview.Location = new System.Drawing.Point(63, 82);
             this.flpUploadPreview.Name = "flpUploadPreview";
-            this.flpUploadPreview.Size = new System.Drawing.Size(265, 381);
+            this.flpUploadPreview.Size = new System.Drawing.Size(257, 373);
             this.flpUploadPreview.TabIndex = 12;
             // 
             // searchBox
@@ -122,9 +124,9 @@ namespace OCR.Desktop
             // 
             // flpOCRPreview
             // 
-            this.flpOCRPreview.Location = new System.Drawing.Point(546, 78);
+            this.flpOCRPreview.Location = new System.Drawing.Point(550, 82);
             this.flpOCRPreview.Name = "flpOCRPreview";
-            this.flpOCRPreview.Size = new System.Drawing.Size(265, 381);
+            this.flpOCRPreview.Size = new System.Drawing.Size(257, 373);
             this.flpOCRPreview.TabIndex = 15;
             // 
             // label2
@@ -163,6 +165,22 @@ namespace OCR.Desktop
             this.panel2.Size = new System.Drawing.Size(265, 381);
             this.panel2.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Location = new System.Drawing.Point(59, 78);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(265, 381);
+            this.panel3.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Location = new System.Drawing.Point(546, 78);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(265, 381);
+            this.panel4.TabIndex = 0;
+            // 
             // OcrApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,6 +198,8 @@ namespace OCR.Desktop
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "OcrApp";
@@ -205,6 +225,8 @@ namespace OCR.Desktop
         private Label label3;
         private Panel panel1;
         private Panel panel2;
+        private Panel panel4;
+        private Panel panel3;
     }
 }
 
